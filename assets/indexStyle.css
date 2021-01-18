@@ -1,9 +1,12 @@
-
-#title, #description{
-	display: flex;
-	justify-content: center;
+/*body{
+	background-image: url("picture.jpg");
+	background-color:blue;
+}*/
+#tile-div{
+	display:block;
+	text-align:center;
+	
 }
-
 #form-div{
 	display: flex;
 	justify-content: center;
