@@ -10,14 +10,13 @@
 		<p id="description">Thank you for taking the time and joining us</p>
 		<form id="survey-Form">
 			<label for="name-label">First Name:</label><br>
-			<input id="name-label" type="text" name="firstName-inp" required><br>
+			<input id="name-label" type="text" name="firstName-inp" placeholder="please inter your first Name" required><br>
 			
-
 			<label for="email-label">Email:</label><br>
-			<input id="email-label" type="email" name="email-inp" required><br>
+			<input id="email-label" type="email" name="email-inp" placeholder="please input your email-address" required><br>
 
 			<label for="number-label">Age (optional)</label><br>
-			<input id="number-label" type="number" name="age-inp" min="10" max="99"><br>
+			<input id="number-label" type="number" name="age-inp" min="10" max="99" placeholder="How old are you" required ><br>
 
 
 			<p>Would you recommend our Course to your friend?</p>
@@ -26,10 +25,6 @@
 			<input  type="radio" name="recommend"> <label>Not sure</label><br>
 
 
-
-
-			
-			
 			<p>Which option descrive your current role?</p>
 			<input id="dropdown" type="text" name="role" list="role">
 			<datalist id="role">
@@ -40,10 +35,12 @@
 				<option value="other"></option>
 			</datalist>
 			
+
 			<p>Would you recommend our Course to a friend?</p>
 			<input  type="radio" name="recommend" checked id="r1"> <label for="r1">Definitly</label><br>
 			<input  type="radio" name="recommend" id="r2"> <label for="r2">Maybe</label><br>
 			<input  type="radio" name="recommend" id="r3"> <label for="r3" >Not sure</label><br>
+
 
 			<p>What is your favorite feature of our course?</p>
 			<input id="dropdown" type="text" name="role" list="role" placeholder="select an option">
@@ -55,8 +52,8 @@
 				<option value="classes"></option>
 			</datalist>
 			
+
 			<p>What would you like to get professsional at?(check all that apply)</p>
-			
 			<input type="checkbox" value="Front-end projects" id="c1">
 			<label for="c1">Front-end projects<label><br>
 			
