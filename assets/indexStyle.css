@@ -1,0 +1,35 @@
+
+#title, #description{
+	display: flex;
+	justify-content: center;
+}
+
+#form-div{
+	display: flex;
+	justify-content: center;
+}
+
+form{
+
+	background-color: #3f3f3f;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 600px;
+	padding: 10px 20px;
+
+}
+
+#name-label, #email-label, #number-label, #dropdown, #dropdown2 {
+	height: 35px;
+	border-radius: 5px;
+}
+
+#textarea{
+	height: 100px;
+}
+
+
+/*#radio-div, #checkbox-div{
+	display: inline-block;
+}*/
