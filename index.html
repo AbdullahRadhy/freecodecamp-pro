@@ -1,81 +1,86 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>survey-Form</title>
 	<link rel="stylesheet" type="text/css" href="assets/indexStyle.css">
 </head>
+
 <body>
 
 	<main>
 		<h1 id="title">Course Registeration Form</h1>
 		<p id="description">Thank you for taking the time and joining us</p>
 		<div id="form-div">
-		<form id="survey-Form">
-			<label for="name-label">First Name:</label><br>
-			<input id="name-label" type="text" name="firstName-inp" placeholder="please inter your first Name" required><br>
-			
-			<label for="email-label">Email:</label><br>
-			<input id="email-label" type="email" name="email-inp" placeholder="please input your email-address" required><br>
+			<form id="survey-Form">
+				<label for="name-label">First Name:</label><br>
+				<input id="name-label" type="text" name="firstName-inp" placeholder="please inter your first Name"
+					required><br>
 
-			<label for="number-label">Age (optional)</label><br>
-			<input id="number-label" type="number" name="age-inp" min="10" max="99" placeholder="How old are you" required ><br>
+				<label for="email-label">Email:</label><br>
+				<input id="email-label" type="email" name="email-inp" placeholder="please input your email-address"
+					required><br>
 
-			<div id="radio-div">
-			<p>Would you recommend our Course to a friend?</p>
-			<input  type="radio" name="recommend" checked id="r1"> <label for="r1">Definitly</label><br>
-			<input  type="radio" name="recommend" id="r2"> <label for="r2">Maybe</label><br>
-			<input  type="radio" name="recommend" id="r3"> <label for="r3" >Not sure</label><br>
-			</div>
+				<label for="number-label">Age (optional)</label><br>
+				<input id="number-label" type="number" name="age-inp" min="10" max="99" placeholder="How old are you"
+					required><br>
 
-			<p>Which option descrive your current role?</p>
-			<input id="dropdown" type="text" name="role" list="role">
-			<datalist id="role">
-				<option value="Student"></option>
-				<option value="Full time job"></option>
-				<option value="Full time learner"></option>
-				<option value="perfer not to say"></option>
-				<option value="other"></option>
-			</datalist>
-		
+				<div id="radio-div">
+					<p>Would you recommend our Course to a friend?</p>
+					<input type="radio" name="recommend" checked id="r1"> <label for="r1">Definitly</label><br>
+					<input type="radio" name="recommend" id="r2"> <label for="r2">Maybe</label><br>
+					<input type="radio" name="recommend" id="r3"> <label for="r3">Not sure</label><br>
+				</div>
 
-			<p>What is your favorite feature of our course?</p>
-			<input id="dropdown2" type="text" name="role" list="role" placeholder="select an option">
-			<datalist id="role">
-				<option value="Challenges"></option>
-				<option value="projects"></option>
-				<option value="Facilities"></option>
-				<option value="community"></option>
-				<option value="classes"></option>
-			</datalist>
-			
-			<div id="checkbox-div">
-			<p>What would you like to get professsional at?(check all that apply)</p>
+				<p>Which option descrive your current role?</p>
+				<input id="dropdown" type="text" name="role" list="role">
+				<datalist id="role">
+					<option value="Student"></option>
+					<option value="Full time job"></option>
+					<option value="Full time learner"></option>
+					<option value="perfer not to say"></option>
+					<option value="other"></option>
+				</datalist>
 
-			<input type="checkbox" value="Front-end projects" id="c1">
-			<label for="c1">Front-end projects<label><br>
-			
-			<input type="checkbox" value="Back-end projects" id="c2">
-			<label for="c2">Back-end projects<label><br>
-			
-			<input type="checkbox" value="Challenges" id="c3">
-			<label for="c3">Challenges<label><br>
-			
-			<input type="checkbox" value="Data Visualisation" id="c4">
-			<label for="c4">Data Visualisation<label><br>
-			
-			<input type="checkbox" value="Videos" id="c5">
-			<label for="c5">Videos<label><br>
-			</div>
+				<p>What is your favorite feature of our course?</p>
+				<input id="dropdown2" type="text" name="role" list="role" placeholder="select an option">
+				<datalist id="role">
+					<option value="Challenges"></option>
+					<option value="projects"></option>
+					<option value="Facilities"></option>
+					<option value="community"></option>
+					<option value="classes"></option>
+				</datalist>
+
+				<div id="checkbox-div">
+					<p>What would you like to get professsional at?(check all that apply)</p>
+
+					<input type="checkbox" value="Front-end projects" id="c1">
+					<label for="c1">Front-end projects<label><br>
+
+							<input type="checkbox" value="Back-end projects" id="c2">
+							<label for="c2">Back-end projects<label><br>
+
+									<input type="checkbox" value="Challenges" id="c3">
+									<label for="c3">Challenges<label><br>
+
+											<input type="checkbox" value="Data Visualisation" id="c4">
+											<label for="c4">Data Visualisation<label><br>
+
+													<input type="checkbox" value="Videos" id="c5">
+													<label for="c5">Videos<label><br>
+				</div>
 
 
-			<p>Any comment or suggestions?</p>
-			<input type="textarea" name="add-info" id="textarea"></input><br>
-			
-			<input type="Submit" id="submit"> 
-		</form>
+				<p>Any comment or suggestions?</p>
+				<input type="textarea" name="add-info" id="textarea"></input><br>
+
+				<input type="Submit" id="submit">
+			</form>
 		</div>
 
 	</main>
 
 </body>
+
 </html>
