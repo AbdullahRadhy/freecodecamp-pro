@@ -1,7 +1,21 @@
-
+body{
+	background-color:#9997f6;
+}
 #title, #description{
-	display: flex;
-	justify-content: center;
+	display:block;
+	text-align:center;
+}
+
+#title{
+	font-family: serif;
+	font-size: 3rem;
+	padding-top: 20px;
+}
+
+#description{
+	padding-bottom: 20px;
+	margin-top: -10px;
+	font-size: 1.3rem;
 }
 
 #form-div{
@@ -11,12 +25,12 @@
 
 form{
 
-	background-color: #3f3f3f;
+	background-color: #82d2ee;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	width: 600px;
-	padding: 10px 20px;
+	padding: 30px 30px;
 
 }
 
@@ -29,7 +43,6 @@ form{
 	height: 100px;
 }
 
-
-/*#radio-div, #checkbox-div{
-	display: inline-block;
-}*/
+label, p{
+	font-size: 1.1rem;
+}
