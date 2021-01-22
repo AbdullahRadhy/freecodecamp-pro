@@ -7,12 +7,13 @@ body{
 }
 
 #title{
-	font-family: serif;
+	font-family: 'poppins', sans-serif;
 	font-size: 3rem;
 	padding-top: 20px;
 }
 
 #description{
+	font-family: 'poppins', sans-serif;
 	padding-bottom: 20px;
 	margin-top: -10px;
 	font-size: 1.3rem;
