@@ -1,0 +1,75 @@
+body{
+	background-color:#add8e6;
+}
+#title,#description{
+text-align:center;
+
+}
+
+#title{
+	font-family: 'poppins', sans-serif;
+	font-size: 3rem;
+	padding-top: 20px;
+}
+
+#description{
+	font-family: 'poppins', sans-serif;
+	padding-bottom: 20px;
+	margin-top: -10px;
+	font-size: 1.3rem;
+}
+
+#form-div{
+	display: flex;
+	justify-content: center;
+    color: white;
+	font-size:1.2rem;
+	font-weight:15;
+}
+form{
+	background-color: #3f3f3f;
+	font-family: Poppins;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 600px;
+	padding: 30px 30px;
+
+}
+
+#name-div, #email-div,#number-div,#radio-div, #checkbox-div, #textarea-div, #submit-div, #dropdown-div, #dropdown2-div{
+	display: block;
+	width: relative;
+	margin-bottom: 20px;
+}
+
+#name, #email, #number, #dropdown, #dropdown2,#textarea,#submit {
+	width: 100%;
+	height: 35px;
+	border-radius: 5px;
+	font-family:popins;
+	margin-top:5px;
+}
+
+#textarea{
+	height: 100px;
+	margin-top:-10px;
+}
+#submit{
+	background-color:#2E8B57;
+	height:40px;
+}
+#dropdown{
+	margin-top:-10px;
+}
+
+#dropdown2{
+	margin-top:-10px;
+}
+
+
+label, p{
+	font-size: 1.1rem;
+}
+
+
