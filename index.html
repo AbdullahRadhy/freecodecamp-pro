@@ -12,29 +12,29 @@
 		<h1 id="title">Course Registeration Form</h1>
 		<p id="description">Thank you for taking the time and joining us</p>
 		<div id="form-div">
-			<form id="survey-Form">
+			<form id="survey-form">
+
 				<div id="name-div">
-				<label for="name-label">First Name:</label><br>
-				<input id="name-label" type="text" name="firstName-inp" placeholder="please inter your first Name"
-					required><br>
+				<label id="name-label" for="name">First Name:</label>
+				<input id="name" type="text" name="firstName-inp" placeholder="please inter your first Name" required><br>
 				</div>
-				<div id="email-div"> 
-				<label for="email-label">Email:</label><br>
-				<input id="email-label" type="email" name="email-inp" placeholder="please input your email-address"
-					required><br>
+
+				<div id="email-div">
+				<label id="email-label" for="email">Email:</label>
+				<input id="email" type="email" name="email-inp" placeholder="please input your email-address" required><br>
 				</div>
 
 				<div id="number-div">
-				<label for="number-label">Age (optional)</label><br>
-				<input id="number-label" type="number" name="age-inp" min="10" max="99" placeholder="How old are you"
-					required><br>
+				<label  id="number-label" for="number">Age (optional)</label>
+				<input id="number" type="number" name="age-inp" min="10" max="99" placeholder="How old are you?" required><br>
 				</div>
 
+
 				<div id="radio-div">
-					<p>Would you recommend our Course to a friend?</p>
-					<input type="radio" name="recommend" checked id="r1"> <label for="r1">Definitly</label><br>
-					<input type="radio" name="recommend" id="r2"> <label for="r2">Maybe</label><br>
-					<input type="radio" name="recommend" id="r3"> <label for="r3">Not sure</label><br>
+				<p>Would you recommend our Course to a friend?</p>
+				<input  type="radio" name="recommend" value="Definitly" id="r1" checked> <label for="r1">Definitly</label><br>
+				<input  type="radio" name="recommend" value="Maybe" id="r2"> <label for="r2">Maybe</label><br>
+				<input  type="radio" name="recommend" value="Not sure" id="r3"> <label for="r3" >Not sure</label><br>
 				</div>
 
 				<div id="dropdown-div">
@@ -81,8 +81,9 @@
 
 				<div id="textarea-div">
 				<p>Any comment or suggestions?</p>
-				<input type="textarea" name="add-info" id="textarea"></input><br>
+				<textarea name="add-info" id="textarea"></textarea><br>
 				</div>
+
 				
 				<div id="submit-div">
 				<input type="Submit" id="submit"> 
