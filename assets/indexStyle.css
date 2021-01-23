@@ -35,7 +35,13 @@ form{
 
 }
 
+#name-div, #email-div, #number-div, #radio-div, #checkbox-div, #textarea-div, #submit-div, #dropdown-div, #dropdown2-div{
+	display: block;
+	width: relative;
+	margin-bottom: 20px;
+}
 #name-label, #email-label, #number-label, #dropdown, #dropdown2 {
+	width: 100%;
 	height: 35px;
 	border-radius: 5px;
 }

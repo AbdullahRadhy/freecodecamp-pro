@@ -13,18 +13,18 @@
 		<p id="description">Thank you for taking the time and joining us</p>
 		<div id="form-div">
 			<form id="survey-Form">
-				<div>
+				<div id="name-div">
 				<label for="name-label">First Name:</label><br>
 				<input id="name-label" type="text" name="firstName-inp" placeholder="please inter your first Name"
 					required><br>
 				</div>
-				<div> 
+				<div id="email-div"> 
 				<label for="email-label">Email:</label><br>
 				<input id="email-label" type="email" name="email-inp" placeholder="please input your email-address"
 					required><br>
 				</div>
 
-				<div>
+				<div id="number-div">
 				<label for="number-label">Age (optional)</label><br>
 				<input id="number-label" type="number" name="age-inp" min="10" max="99" placeholder="How old are you"
 					required><br>
@@ -37,7 +37,7 @@
 					<input type="radio" name="recommend" id="r3"> <label for="r3">Not sure</label><br>
 				</div>
 
-				<div>
+				<div id="dropdown-div">
 				<p>Which option descrive your current role?</p>
 					<input id="dropdown" type="text" name="role" list="role" placeholder="Select an Option">
 					<datalist id="role">
@@ -49,7 +49,7 @@
 					</datalist>
 				</div>
 			
-				<div>
+				<div id="dropdown2-div">
 				<p>What is your favorite feature of our course?</p>
 				<input id="dropdown2" type="text" name="role" list="role" placeholder="Select an Option">
 				<datalist id="role">
@@ -63,7 +63,6 @@
 				
 				<div id="checkbox-div">
 				<p>What would you like to get professsional at?(check all that apply)</p>
-
 				<input type="checkbox" value="Front-end projects" id="c1">
 				<label for="c1">Front-end projects<label><br>
 				
@@ -80,12 +79,12 @@
 				<label for="c5">Videos<label><br>
 				</div>
 
-				<div>
+				<div id="textarea-div">
 				<p>Any comment or suggestions?</p>
 				<input type="textarea" name="add-info" id="textarea"></input><br>
 				</div>
 				
-				<div>
+				<div id="submit-div">
 				<input type="Submit" id="submit"> 
 				</div>
 			</form>
