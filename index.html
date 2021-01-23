@@ -39,26 +39,26 @@
 
 				<div id="dropdown-div">
 				<p>Which option descrive your current role?</p>
-					<input id="dropdown" type="text" name="role" list="role" placeholder="Select an Option">
-					<datalist id="role">
-						<option value="Student"></option>
-						<option value="Full time job"></option>
-						<option value="Full time learner"></option>
-						<option value="perfer not to say"></option>
-						<option value="other"></option>
-					</datalist>
+					<select id="dropdown" name="role">
+						<option value="Select current role" selected disabled> Select current role</option>
+						<option value="Student">Student</option>
+						<option value="Full time job">Full time job</option>
+						<option value="Full time learner">Full time learner</option>
+						<option value="perfer not to say">perfer not to say</option>
+						<option value="other">other</option>
+					</select>
 				</div>
 			
 				<div id="dropdown2-div">
 				<p>What is your favorite feature of our course?</p>
-				<input id="dropdown2" type="text" name="role" list="role" placeholder="Select an Option">
-				<datalist id="role">
-					<option value="Challenges"></option>
-					<option value="projects"></option>
-					<option value="Facilities"></option>
-					<option value="community"></option>
-					<option value="classes"></option>
-				</datalist>
+				<select id="dropdown2" type="text" name="role">
+					<option value="Select an Option" selected disabled> Select an Option</option>
+					<option value="Challenges"> Challenges</option>
+					<option value="projects"> projects</option>
+					<option value="Facilities"> Facilities</option>
+					<option value="community">community</option>
+					<option value="classes">classes</option>
+				</select>
 				</div>
 				
 				<div id="checkbox-div">
@@ -81,7 +81,7 @@
 
 				<div id="textarea-div">
 				<p>Any comment or suggestions?</p>
-				<textarea name="add-info" id="textarea"></textarea><br>
+				<textarea style="height: 120px;" name="add-info" id="textarea" placeholder="Please, Enter your comment here."></textarea><br>
 				</div>
 
 				
